@@ -1,7 +1,5 @@
 import { Module } from '@nestjs/common';
-import { TypeOrmModule } from '@nestjs/typeorm';
 import { AssetsModule } from './assets/assets.module';
-import { Asset } from './assets/assets.entity';
 import { SupabaseService } from './supabase.service';
 import { ConfigModule } from '@nestjs/config';
 
